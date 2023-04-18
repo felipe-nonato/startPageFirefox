@@ -71,9 +71,9 @@ const CONFIG = {
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Figma',
+			icon: 'figma',
+			link: 'https://figma.com/'
 		},
 		{
 			id: '5',
@@ -83,9 +83,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Youtube',
-			icon: 'youtube',
-			link: 'https://www.youtube.com/',
+			name: 'twitter',
+			icon: 'twitter',
+			link: 'https://twitter.com/',
 		},
 	],
 
