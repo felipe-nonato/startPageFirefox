@@ -1,6 +1,6 @@
 import { Component, CSSProperties } from "react";
-import { Classes } from "reactcss";
 import { ColorPickerProps, ColorResult } from "../../..";
+import { Classes } from "reactcss";
 
 export interface SwatchesPickerStylesProps {
     picker: CSSProperties;
@@ -17,4 +17,4 @@ export interface SwatchesPickerProps extends ColorPickerProps<SwatchesPicker> {
     onSwatchHover?(color: ColorResult, event: MouseEvent): void;
 }
 
-export default class SwatchesPicker extends Component<SwatchesPickerProps> {}
+export default class SwatchesPicker extends Component<SwatchesPickerProps> { }
